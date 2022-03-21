@@ -9,13 +9,14 @@
 
 void _puts(char *str)
 {
-	char n = 'School';
-	str = &n;
-	int m;
+char *c;
+int m;
 
-	for (m = 0; str[m]; m++)
-	{
-		_puts (str[m]);
-	}
-	_puts('\n');
+c = str;
+
+for (m = 0; c[m]; m++)
+{
+_putchar (c[m]);
+}
+_putchar('\n');
 }

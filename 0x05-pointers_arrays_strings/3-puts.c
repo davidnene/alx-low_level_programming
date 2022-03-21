@@ -1,4 +1,4 @@
-include "main.h"
+#iinclude "main.h"
 
 /**
  * _puts - prints a string
@@ -9,14 +9,13 @@ include "main.h"
 
 void _puts(char *str)
 {
-char *c;
+char n = 'School';
+str = &d;
 int m;
 
-c = str;
-
-for (m = 0; c[m]; m++)
+for (m = 0; str[m]; m++)
 {
-_putchar (c[m]);
+_puts (str[m]);
 }
-_putchar('\n');
+_puts ('\n');
 }

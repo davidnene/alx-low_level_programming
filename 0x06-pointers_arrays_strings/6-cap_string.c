@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 /**
  * separators - checks and ensure that all string is capitalized

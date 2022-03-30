@@ -19,5 +19,3 @@ int _evaluate(int i, int n)
 		return (i);
 
 	return (-1);
-
-	return (-1);

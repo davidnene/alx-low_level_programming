@@ -8,7 +8,7 @@
  * Return: zero
  */
 
-int __attribute__ ((unused)) main(int argc, char *argv[])
+int main(int argc)
 {
 	printf("%d\n", argc);
 

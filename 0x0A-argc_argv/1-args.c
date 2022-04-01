@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -11,7 +10,8 @@
 
 int main(int argc, char __attibute__ ((unused)) *argv[])
 {
-	printf(/"%d\n", argc);
+	(void) argv; /*Ignore argv*/
+	printf(/"%i\n", argc - 1);
 
 	return (0);
 }

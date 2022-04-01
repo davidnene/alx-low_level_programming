@@ -8,7 +8,7 @@
  * Return: zero
  */
 
-int main(int argc, char __attibute__ ((unused)) *argv[])
+int main(int argc, *argv[])
 {
 	(void) argv; /*Ignore argv*/
 	printf(/"%i\n", argc - 1);
